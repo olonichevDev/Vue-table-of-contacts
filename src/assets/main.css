@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Proxima Nova Normal";
+  src: url(../fonts/ReneBiederMilliardBook.otf);
+}
+body {
+  font-family: "Unbounded", sans-serif;
+  font-style: normal;
+  margin: 0;
+  text-align: left;
+  color: #4932D8;
+}
+
+button {
+  font-family: inherit;
+  font-style: inherit;
+  border: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=main.css.map */

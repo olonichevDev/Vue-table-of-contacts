@@ -1,0 +1,24 @@
+@use 'config';
+
+@font-face {
+    font-family: config.$secondary-font-family;
+    src: url(../fonts/ReneBiederMilliardBook.otf);
+}
+
+body{
+    font-family: "Unbounded", sans-serif;
+    font-style: normal;
+    
+    margin: 0;
+    
+    text-align: left;
+    color: config.$primary-color;
+}
+  
+button{
+    font-family: inherit;
+    font-style: inherit;
+    border: none;
+
+    color: inherit;
+}
